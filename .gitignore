@@ -56,8 +56,8 @@ history/*
 
 # API configurations (contain API keys)
 .gemini/
-image_providers.yaml
-text_providers.yaml
+/image_providers.yaml
+/text_providers.yaml
 
 # Logs
 *.log
@@ -74,3 +74,7 @@ htmlcov/
 *.temp
 test_*.py
 debug_*.py
+
+# Dev notes
+DEV_NOTES.md
+commit_message.txt
